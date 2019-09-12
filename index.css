@@ -1,0 +1,57 @@
+/* Eastern Egg Background  */
+.easter_background {
+    background: url("https://www.tokkoro.com/picsup/2950159-baskets-eggs-grass-easter-easter-eggs-nests___landscape-nature-wallpapers.jpg");
+    background-size: contain;
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.easternBunnyEggs {
+    background: url("https://cdn3.vectorstock.com/i/1000x1000/62/32/easter-egg-icon-cartoon-style-vector-25626232.jpg") no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+/* Easter Egg styles */
+.egg {
+    background: url("https://cdn3.vectorstock.com/i/1000x1000/62/32/easter-egg-icon-cartoon-style-vector-25626232.jpg") no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    border: 2px solid black;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.egg-position {
+    position: absolute; 
+    bottom: 313px; 
+    right: 31px;
+}
+@keyframes eggTransition {
+    0% {opacity: 0;}
+    25% {opacity: 0.3;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0.9;}
+}
+.egg {
+    opacity: 0;
+}
+.egg:hover {
+    animation: fadein 5s;
+    animation-name: eggTransition;
+}
+
+/* Card info display */
+.card-display {
+    width: 25%;
+    margin: 25% auto;
+}
+.btn {
+    float: right;
+}
+.btn:hover {
+    color: #e02a3b;
+    text-decoration: none;
+}
+
